@@ -1,0 +1,648 @@
+{
+ "contactSeconds": 0.65,
+ "defenderDelay": 0.2,
+ "sheets": {
+  "Buy_Chat": {
+   "files": [
+    "Buy_Chat.0.webp",
+    "Buy_Chat.1.webp",
+    "Buy_Chat.2.webp",
+    "Buy_Chat.3.webp",
+    "Buy_Chat.4.webp",
+    "Buy_Chat.5.webp",
+    "Buy_Chat.6.webp",
+    "Buy_Chat.7.webp",
+    "Buy_Chat.8.webp",
+    "Buy_Chat.9.webp",
+    "Buy_Chat.10.webp",
+    "Buy_Chat.11.webp"
+   ],
+   "width": 261,
+   "height": 517,
+   "anchor": [
+    151.0,
+    511
+   ],
+   "figureHeight": 499.0
+  },
+  "Buy_Reaction": {
+   "files": [
+    "Buy_Reaction.0.webp",
+    "Buy_Reaction.1.webp",
+    "Buy_Reaction.2.webp",
+    "Buy_Reaction.3.webp",
+    "Buy_Reaction.4.webp",
+    "Buy_Reaction.5.webp",
+    "Buy_Reaction.6.webp",
+    "Buy_Reaction.7.webp"
+   ],
+   "width": 322,
+   "height": 546,
+   "anchor": [
+    206.8,
+    540
+   ],
+   "figureHeight": 532.0,
+   "cheek": [
+    10,
+    -470
+   ]
+  },
+  "Buy_Slap": {
+   "files": [
+    "Buy_Slap.0.webp",
+    "Buy_Slap.1.webp",
+    "Buy_Slap.2.webp",
+    "Buy_Slap.3.webp",
+    "Buy_Slap.4.webp",
+    "Buy_Slap.5.webp",
+    "Buy_Slap.6.webp",
+    "Buy_Slap.7.webp"
+   ],
+   "width": 364,
+   "height": 538,
+   "anchor": [
+    193.2,
+    532
+   ],
+   "figureHeight": 522.5,
+   "contactFrame": 3,
+   "hand": [
+    133.8,
+    -450.5
+   ]
+  },
+  "Sell_Chat": {
+   "files": [
+    "Sell_Chat.0.webp",
+    "Sell_Chat.1.webp",
+    "Sell_Chat.2.webp",
+    "Sell_Chat.3.webp",
+    "Sell_Chat.4.webp",
+    "Sell_Chat.5.webp",
+    "Sell_Chat.6.webp",
+    "Sell_Chat.7.webp",
+    "Sell_Chat.8.webp",
+    "Sell_Chat.9.webp",
+    "Sell_Chat.10.webp",
+    "Sell_Chat.11.webp"
+   ],
+   "width": 272,
+   "height": 511,
+   "anchor": [
+    157.0,
+    505
+   ],
+   "figureHeight": 496.0
+  },
+  "Sell_Reaction": {
+   "files": [
+    "Sell_Reaction.0.webp",
+    "Sell_Reaction.1.webp",
+    "Sell_Reaction.2.webp",
+    "Sell_Reaction.3.webp",
+    "Sell_Reaction.4.webp",
+    "Sell_Reaction.5.webp",
+    "Sell_Reaction.6.webp",
+    "Sell_Reaction.7.webp"
+   ],
+   "width": 345,
+   "height": 547,
+   "anchor": [
+    161.5,
+    541
+   ],
+   "figureHeight": 533.0,
+   "cheek": [
+    25,
+    -470
+   ]
+  },
+  "Sell_Slap": {
+   "files": [
+    "Sell_Slap.0.webp",
+    "Sell_Slap.1.webp",
+    "Sell_Slap.2.webp",
+    "Sell_Slap.3.webp",
+    "Sell_Slap.4.webp",
+    "Sell_Slap.5.webp",
+    "Sell_Slap.6.webp",
+    "Sell_Slap.7.webp"
+   ],
+   "width": 364,
+   "height": 541,
+   "anchor": [
+    198.0,
+    535
+   ],
+   "figureHeight": 517.5,
+   "contactFrame": 3,
+   "hand": [
+    -181.0,
+    -422.9
+   ]
+  }
+ },
+ "animations": {
+  "Buy_Slap": {
+   "sheet": "Buy_Slap",
+   "frames": [
+    [
+     0,
+     0.35
+    ],
+    [
+     1,
+     0.15
+    ],
+    [
+     2,
+     0.15
+    ],
+    [
+     3,
+     0.08
+    ],
+    [
+     4,
+     0.1
+    ],
+    [
+     5,
+     0.12
+    ],
+    [
+     6,
+     0.2
+    ],
+    [
+     7,
+     0.65
+    ]
+   ]
+  },
+  "Buy_Reaction": {
+   "sheet": "Buy_Reaction",
+   "frames": [
+    [
+     0,
+     0.35
+    ],
+    [
+     1,
+     0.12
+    ],
+    [
+     2,
+     0.08
+    ],
+    [
+     3,
+     0.15
+    ],
+    [
+     4,
+     0.35
+    ],
+    [
+     5,
+     0.25
+    ],
+    [
+     6,
+     0.2
+    ],
+    [
+     7,
+     0.35
+    ]
+   ]
+  },
+  "Sell_Slap": {
+   "sheet": "Sell_Slap",
+   "frames": [
+    [
+     0,
+     0.35
+    ],
+    [
+     1,
+     0.15
+    ],
+    [
+     2,
+     0.15
+    ],
+    [
+     3,
+     0.08
+    ],
+    [
+     4,
+     0.1
+    ],
+    [
+     5,
+     0.12
+    ],
+    [
+     6,
+     0.2
+    ],
+    [
+     7,
+     0.65
+    ]
+   ]
+  },
+  "Sell_Reaction": {
+   "sheet": "Sell_Reaction",
+   "frames": [
+    [
+     0,
+     0.35
+    ],
+    [
+     1,
+     0.12
+    ],
+    [
+     2,
+     0.08
+    ],
+    [
+     3,
+     0.15
+    ],
+    [
+     4,
+     0.35
+    ],
+    [
+     5,
+     0.25
+    ],
+    [
+     6,
+     0.2
+    ],
+    [
+     7,
+     0.35
+    ]
+   ]
+  },
+  "Buy_Greeting": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     1,
+     0.35
+    ],
+    [
+     2,
+     0.7
+    ],
+    [
+     1,
+     0.25
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Attention": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     3,
+     0.8
+    ],
+    [
+     1,
+     0.35
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Compliment": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     4,
+     0.9
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Flirt": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     5,
+     0.75
+    ],
+    [
+     4,
+     0.4
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Boundary": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     6,
+     0.45
+    ],
+    [
+     7,
+     0.65
+    ],
+    [
+     6,
+     0.25
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Laugh": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     8,
+     0.35
+    ],
+    [
+     4,
+     0.2
+    ],
+    [
+     8,
+     0.35
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_Cheer": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     9,
+     0.5
+    ],
+    [
+     10,
+     0.6
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Buy_GG": {
+   "sheet": "Buy_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     11,
+     0.65
+    ],
+    [
+     3,
+     0.3
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Greeting": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     1,
+     0.35
+    ],
+    [
+     2,
+     0.7
+    ],
+    [
+     1,
+     0.25
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Attention": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     3,
+     0.8
+    ],
+    [
+     1,
+     0.35
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Compliment": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     4,
+     0.9
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Flirt": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     5,
+     0.75
+    ],
+    [
+     4,
+     0.4
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Boundary": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     6,
+     0.45
+    ],
+    [
+     7,
+     0.65
+    ],
+    [
+     6,
+     0.25
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Laugh": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     8,
+     0.35
+    ],
+    [
+     4,
+     0.2
+    ],
+    [
+     8,
+     0.35
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_Cheer": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     9,
+     0.5
+    ],
+    [
+     10,
+     0.6
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  },
+  "Sell_GG": {
+   "sheet": "Sell_Chat",
+   "frames": [
+    [
+     0,
+     0.25
+    ],
+    [
+     11,
+     0.65
+    ],
+    [
+     3,
+     0.3
+    ],
+    [
+     0,
+     0.4
+    ]
+   ]
+  }
+ }
+}

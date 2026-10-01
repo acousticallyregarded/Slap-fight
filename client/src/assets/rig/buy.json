@@ -1,0 +1,425 @@
+{
+ "sources": [
+  "art/source/buy.png",
+  "art/source/buy-stage1.png",
+  "art/source/buy-stage2.png",
+  "art/source/buy-stage3.png",
+  "art/source/buy-stage4.png",
+  "art/source/buy-stage5.png"
+ ],
+ "hip": [
+  512,
+  560
+ ],
+ "stages": 6,
+ "parts": [
+  {
+   "name": "body.s0",
+   "file": "body.s0.webp",
+   "x": 150,
+   "y": 1,
+   "w": 606,
+   "h": 1059,
+   "z": 0,
+   "stages": [
+    0
+   ]
+  },
+  {
+   "name": "head.s0",
+   "file": "head.s0.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s0",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    0
+   ]
+  },
+  {
+   "name": "forearm.s0",
+   "file": "forearm.s0.webp",
+   "x": 544,
+   "y": 240,
+   "w": 173,
+   "h": 241,
+   "z": 50,
+   "parent": "body.s0",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    0
+   ]
+  },
+  {
+   "name": "garment.jacket",
+   "file": "garment.jacket.webp",
+   "x": 323,
+   "y": 319,
+   "w": 410,
+   "h": 304,
+   "z": 45,
+   "parent": "body.s0",
+   "garment": "jacket",
+   "stages": [
+    0
+   ]
+  },
+  {
+   "name": "body.s1",
+   "file": "body.s1.webp",
+   "x": 151,
+   "y": 5,
+   "w": 608,
+   "h": 1055,
+   "z": 0,
+   "stages": [
+    1
+   ]
+  },
+  {
+   "name": "head.s1",
+   "file": "head.s1.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s1",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    1
+   ]
+  },
+  {
+   "name": "forearm.s1",
+   "file": "forearm.s1.webp",
+   "x": 544,
+   "y": 239,
+   "w": 150,
+   "h": 241,
+   "z": 50,
+   "parent": "body.s1",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    1
+   ]
+  },
+  {
+   "name": "garment.sash",
+   "file": "garment.sash.webp",
+   "x": 586,
+   "y": 446,
+   "w": 92,
+   "h": 327,
+   "z": 45,
+   "parent": "body.s1",
+   "garment": "sash",
+   "stages": [
+    1
+   ]
+  },
+  {
+   "name": "body.s2",
+   "file": "body.s2.webp",
+   "x": 149,
+   "y": 3,
+   "w": 607,
+   "h": 1057,
+   "z": 0,
+   "stages": [
+    2
+   ]
+  },
+  {
+   "name": "head.s2",
+   "file": "head.s2.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s2",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    2
+   ]
+  },
+  {
+   "name": "forearm.s2",
+   "file": "forearm.s2.webp",
+   "x": 544,
+   "y": 240,
+   "w": 150,
+   "h": 240,
+   "z": 50,
+   "parent": "body.s2",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    2
+   ]
+  },
+  {
+   "name": "garment.skirt",
+   "file": "garment.skirt.webp",
+   "x": 328,
+   "y": 447,
+   "w": 427,
+   "h": 613,
+   "z": 45,
+   "parent": "body.s2",
+   "garment": "skirt",
+   "stages": [
+    2
+   ]
+  },
+  {
+   "name": "body.s3",
+   "file": "body.s3.webp",
+   "x": 150,
+   "y": 5,
+   "w": 534,
+   "h": 1055,
+   "z": 0,
+   "stages": [
+    3
+   ]
+  },
+  {
+   "name": "head.s3",
+   "file": "head.s3.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s3",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    3
+   ]
+  },
+  {
+   "name": "forearm.s3",
+   "file": "forearm.s3.webp",
+   "x": 544,
+   "y": 240,
+   "w": 152,
+   "h": 241,
+   "z": 50,
+   "parent": "body.s3",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    3
+   ]
+  },
+  {
+   "name": "garment.shorts",
+   "file": "garment.shorts.webp",
+   "x": 402,
+   "y": 483,
+   "w": 266,
+   "h": 196,
+   "z": 45,
+   "parent": "body.s3",
+   "garment": "shorts",
+   "stages": [
+    3
+   ]
+  },
+  {
+   "name": "body.s4",
+   "file": "body.s4.webp",
+   "x": 150,
+   "y": 5,
+   "w": 528,
+   "h": 1055,
+   "z": 0,
+   "stages": [
+    4
+   ]
+  },
+  {
+   "name": "head.s4",
+   "file": "head.s4.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s4",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    4
+   ]
+  },
+  {
+   "name": "forearm.s4",
+   "file": "forearm.s4.webp",
+   "x": 544,
+   "y": 240,
+   "w": 151,
+   "h": 240,
+   "z": 50,
+   "parent": "body.s4",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    4
+   ]
+  },
+  {
+   "name": "garment.cropTop",
+   "file": "garment.cropTop.webp",
+   "x": 423,
+   "y": 201,
+   "w": 193,
+   "h": 273,
+   "z": 45,
+   "parent": "body.s4",
+   "garment": "cropTop",
+   "stages": [
+    4
+   ]
+  },
+  {
+   "name": "body.s5",
+   "file": "body.s5.webp",
+   "x": 140,
+   "y": 1,
+   "w": 550,
+   "h": 1059,
+   "z": 0,
+   "stages": [
+    5
+   ]
+  },
+  {
+   "name": "head.s5",
+   "file": "head.s5.webp",
+   "x": 406,
+   "y": 8,
+   "w": 199,
+   "h": 209,
+   "z": 40,
+   "parent": "body.s5",
+   "pivot": [
+    495,
+    215
+   ],
+   "drive": "head",
+   "stages": [
+    5
+   ]
+  },
+  {
+   "name": "forearm.s5",
+   "file": "forearm.s5.webp",
+   "x": 544,
+   "y": 241,
+   "w": 156,
+   "h": 240,
+   "z": 50,
+   "parent": "body.s5",
+   "pivot": [
+    675,
+    455
+   ],
+   "drive": "nearFore",
+   "stages": [
+    5
+   ]
+  }
+ ],
+ "face": {
+  "center": [
+   522,
+   150
+  ],
+  "cheekIn": [
+   552,
+   168
+  ],
+  "headTop": [
+   505,
+   30
+  ],
+  "cheeks": [
+   [
+    488,
+    146
+   ],
+   [
+    551,
+    161
+   ]
+  ],
+  "eyes": [
+   {
+    "x": 497,
+    "y": 117,
+    "w": 32,
+    "angle": 0.36,
+    "skin": "#f9c4aa",
+    "lash": "#030403"
+   },
+   {
+    "x": 556,
+    "y": 139,
+    "w": 28,
+    "angle": 0.36,
+    "skin": "#f9b7a1",
+    "lash": "#0b0805"
+   }
+  ],
+  "mouth": {
+   "x": 516,
+   "y": 170,
+   "w": 26,
+   "angle": 0.3,
+   "skin": "#fad6c3",
+   "lip": "#691f1c"
+  }
+ }
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+dist-standalone
+server/data
+.env
+# Large art working folders (rebuild inputs; see docs/ASSETS.md)
+art/work
+art/sprites
